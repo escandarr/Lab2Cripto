@@ -1,0 +1,4 @@
+chmod +x burpsuite_community_linux_v2024_1_1_6.sh
+
+git clone https://github.com/digininja/DVWA.git
+curl -X POST -d "username=admin&password=password&Login=Login" http://localhost:8080/login.php
